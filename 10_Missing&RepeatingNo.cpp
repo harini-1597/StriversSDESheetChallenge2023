@@ -1,6 +1,6 @@
 pair<int,int> missingAndRepeating(vector<int> &arr, int n)
 {
-	pair<int,int> ans; int i=0; unordered_set<int> set;
+	pair<int,int> ans; int i=0; unordered_set<int> set; 
 	for(i; i<n; i++){
 		if(set.find(arr[i])!=set.end())
 			break;
